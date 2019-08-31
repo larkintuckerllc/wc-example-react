@@ -1,3 +1,4 @@
+import 'wc-example';
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
@@ -18,6 +19,7 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
+        <hello-world></hello-world>
       </header>
     </div>
   );

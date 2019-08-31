@@ -1412,6 +1412,11 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
+"@webcomponents/webcomponentsjs@^2.2.10":
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-2.2.10.tgz#6f6bee0277833ae98d7e5b46f1e0fdb48cd5ff44"
+  integrity sha512-5dzhUhP+h0qMiK0IWb7VNb0OGBoXO3AuI6Qi8t9PoKT50s5L1jv0xnwnLq+cFgPuTB8FLTNP8xIDmyoOsKBy9Q==
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"
@@ -7914,7 +7919,7 @@ react-dev-utils@^9.0.3:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.9.0:
+react-dom@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
   integrity sha512-YFT2rxO9hM70ewk9jq0y6sQk8cL02xm4+IzYBz75CQGlClQQ1Bxq0nhHF6OtSbit+AIahujJgb/CPRibFkMNJQ==
@@ -7995,7 +8000,7 @@ react-scripts@3.1.1:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.9.0:
+react@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
   integrity sha512-+7LQnFBwkiw+BobzOF6N//BdoNw0ouwmSJTEm9cglOOmsg/TMiFHZLe2sEoN5M7LgJTj9oHH0gxklfnQe66S1w==
@@ -9592,6 +9597,10 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   integrity sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==
   dependencies:
     minimalistic-assert "^1.0.0"
+
+"wc-example@git://github.com/larkintuckerllc/wc-example.git#0.1.5":
+  version "0.1.5"
+  resolved "git://github.com/larkintuckerllc/wc-example.git#d6707d7e875060d60366277b5387f8c2679735ab"
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
