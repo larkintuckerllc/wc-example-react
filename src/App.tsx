@@ -19,6 +19,7 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
+        <div>Hello World</div>
         <hello-world></hello-world>
       </header>
     </div>
