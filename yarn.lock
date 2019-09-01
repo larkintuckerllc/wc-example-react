@@ -9598,9 +9598,9 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-"wc-example@git://github.com/larkintuckerllc/wc-example.git#0.1.5":
-  version "0.1.5"
-  resolved "git://github.com/larkintuckerllc/wc-example.git#d6707d7e875060d60366277b5387f8c2679735ab"
+"wc-example@git://github.com/larkintuckerllc/wc-example.git#0.1.11":
+  version "0.1.11"
+  resolved "git://github.com/larkintuckerllc/wc-example.git#665bb4fa55061fc4881ca0077ed4ab9583ad8823"
 
 webidl-conversions@^4.0.2:
   version "4.0.2"

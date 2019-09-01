@@ -12,7 +12,7 @@
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
     "typescript": "3.6.2",
-    "wc-example": "git://github.com/larkintuckerllc/wc-example.git#0.1.5"
+    "wc-example": "git://github.com/larkintuckerllc/wc-example.git#0.1.11"
   },
   "scripts": {
     "start": "react-scripts start",

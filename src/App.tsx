@@ -1,9 +1,26 @@
+import React, { FC, useCallback, useEffect, useRef, useState } from 'react';
 import 'wc-example';
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const App: React.FC = () => {
+const App: FC = () => {
+  const helloWorldEl = useRef<HTMLElement>(null);
+  const [value, setValue] = useState(0);
+  const handleIncrement = useCallback(() => {
+    const newValue = value + 1;
+    setValue(newValue);
+  }, [setValue, value]);
+  useEffect(() => {
+    const element = helloWorldEl.current;
+    if (element === null) {
+      return;
+    }
+    element.addEventListener('increment', handleIncrement);
+    return () => {
+      element.removeEventListener('increment', handleIncrement);
+    }
+  }, [handleIncrement]);
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -20,7 +37,11 @@ const App: React.FC = () => {
           Learn React
         </a>
         <div>Hello World</div>
-        <hello-world></hello-world>
+        <hello-world
+          color="purple"
+          ref={helloWorldEl}
+          value={value.toString()}
+         />
       </header>
     </div>
   );
